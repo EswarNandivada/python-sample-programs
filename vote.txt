@@ -1,0 +1,7 @@
+print("Welcome")
+age=int(input("How old are:"))
+if age>=18:
+        print("you are elgible to vote")
+if age<18:
+    print("you are not elgible to vote")
+print("Thanks for using application")

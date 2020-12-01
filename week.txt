@@ -1,0 +1,17 @@
+t=int(input("Enter a number:"))
+if t==1:
+    print('The day is sunday')
+elif(t==2):
+    print('The day is Monday')
+elif(t==3):
+    print('The day is Tuesday')
+elif(t==4):
+    print('The day is wednesday')
+elif(t==5):
+    print('The day is thursday')
+elif(t==6):
+    print('The day is friday')
+elif(t==7):
+    print('The day is saturday')
+else:
+    print("Enter a valid input\nPlease type a number between 1 and 7")

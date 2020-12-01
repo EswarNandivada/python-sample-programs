@@ -1,0 +1,9 @@
+ch=input('Enter a character:')
+if ch=='a':
+    print(ch,'is vowel')
+elif(ch=='e' or ch=='i'):
+    print(ch,'is vowel')
+elif(ch=='o' or ch=='u'):
+    print(ch,'is vowel')
+else:
+    print(ch,'is not a vowel')

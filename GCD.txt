@@ -1,0 +1,11 @@
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+if a>0:
+    min =a
+else:
+    min =b
+while min>0:
+    if(a%min==0 and b%min==0):
+        print('The G.C.D of two numbers is',min)
+        break
+    min=min-1
