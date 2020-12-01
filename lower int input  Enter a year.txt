@@ -1,0 +1,6 @@
+lower=int(input('Enter a year:'))
+upper=int(input("Enter a year:"))
+for i in range(lower,upper+1):
+    if((i % 4 == 0 or i % 400 == 0) and i%100!=0):
+        print(i)
+        
